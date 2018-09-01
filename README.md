@@ -22,6 +22,14 @@ sudo dpkg -i wifi-pumpkin-0.8.5-all.deb
 sudo apt-get -f install # force install dependencies if not install normally
 
 ```
+### Installation on Pentoo or Gentoo (or related Distros) 
+https://gpo.zugaina.org/net-wireless/wifi-pumpkin (overlay search @ gpo.zuggania.org) 
+``` layman -S && layman -L && layman -a pentoo if not added.. 
+newer : eselect  repository add pentoo git https://github.com/pentoo/pentoo-overlay.git
+emerge -av net-wireless/wifi-pumpkin 
+Y/N 
+Sabayon Linux , May be in pentest (built-from-pentoo etc) bin-repo via enman , or likeise emerged however equo i net-wireless/wifi-pumpkin 
+```
 
 refer to the wiki for [Installation](https://github.com/P0cL4bs/WiFi-Pumpkin/wiki/Installation)
 
